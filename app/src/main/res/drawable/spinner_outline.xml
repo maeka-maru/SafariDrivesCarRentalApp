@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <solid android:color="#FFFFFF" /> <!-- White color for the interior -->
+    <stroke
+        android:width="2dp"
+        android:color="#007BFF" /> <!-- Teal color for the outline -->
+    <corners android:radius="4dp" />
+</shape>

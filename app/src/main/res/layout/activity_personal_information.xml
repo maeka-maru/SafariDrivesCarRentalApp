@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:gravity="center_horizontal">
+
+    <TextView
+        android:id="@+id/enter_personal_details"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:gravity="center_horizontal"
+        android:text="Please fill in your details:"
+        android:textColor="@color/black"
+        android:textSize="16sp" />
+
+    <EditText
+        android:id="@+id/surname"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/enter_personal_details"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:hint="Enter your surname"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/national_id"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/surname"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:hint="Enter your national ID"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/license_number"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/national_id"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:hint="Enter your license number"
+        android:textSize="18sp" />
+
+    <EditText
+        android:id="@+id/contact_number"
+        android:layout_width="240dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/license_number"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:hint="Enter your phone number"
+        android:textSize="18sp" />
+
+    <Button
+        android:id="@+id/submit_personal_info"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/contact_number"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#007BFF"
+
+        android:text="Submit"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/next_report"
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/contact_number"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#007BFF"
+        android:text="Next"
+        android:textColor="@color/white" />
+
+
+</RelativeLayout>

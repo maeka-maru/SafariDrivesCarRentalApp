@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InformationActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:background="@color/cardview_light_background"
+        android:backgroundTint="#007BFF"
+        android:gravity="center"
+        android:text="Below are the cars you have rented out "
+        android:textColor="@color/white"
+        android:textSize="13sp" />
+
+    <Button
+        android:id="@+id/hamburgerButtonTwo"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="20dp"
+        android:backgroundTint="#007BFF"
+        android:drawableStart="@drawable/ic_hamburger_two"
+        android:gravity="start"
+        android:padding="12dp" />
+
+    <ProgressBar
+        android:id="@+id/progressBar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginStart="185dp"
+        android:visibility="invisible" />
+
+    <Spinner
+        android:id="@+id/spinnerCarCounter"
+        android:layout_width="140dp"
+        android:layout_height="50dp"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="45dp"
+        android:layout_marginEnd="25dp" />
+
+    <TextView
+        android:id="@+id/licensenumberview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:text="License Number"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:text="PlateNumber"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewtheLicenseNumber"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/licensenumberview"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewthePlateNumber"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/licensenumberview"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/brandNameview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewtheLicenseNumber"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Brand Name"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewtheLicenseNumber"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:text="Model Name"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewtheBrandName"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/brandNameview"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewtheModelName"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/brandNameview"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/rentalIdView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textViewtheBrandName"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="50dp"
+        android:text="Rental Id"
+        android:textColor="@color/black" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/textViewtheBrandName"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="50dp"
+        android:layout_marginEnd="50dp"
+        android:text="Price"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textViewtheRentalId"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/rentalIdView"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:textColor="@color/black" />
+    <TextView
+        android:id="@+id/textViewthePrice"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/rentalIdView"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginBottom="25dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+    <Button
+        android:id="@+id/buttonBookAnotherCar"
+        android:layout_width="160dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textViewtheRentalId"
+        android:layout_alignParentLeft="true"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="#007BFF"
+        android:text="Book another car"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/buttonCancelBooking"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textViewtheRentalId"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="25dp"
+        android:backgroundTint="#007BFF"
+        android:text="Cancel Booking"
+        android:textColor="@color/white" />
+
+</RelativeLayout>

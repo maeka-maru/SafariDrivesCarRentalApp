@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Safari Drives</string>
+    <string name="brand_spinner_hint">Select brand</string>
+    <string name="model_spinner_hint">Select model</string>
+</resources>

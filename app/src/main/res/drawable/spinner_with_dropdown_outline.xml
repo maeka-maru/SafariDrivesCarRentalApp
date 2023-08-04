@@ -1,0 +1,10 @@
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:drawable="@drawable/spinner_outline" /> <!-- Your custom outline drawable -->
+    <item
+        android:width="24dp"
+        android:height="24dp"
+        android:gravity="end|center_vertical">
+        <bitmap
+            android:src="@android:drawable/arrow_down_float" /> <!-- Default dropdown icon -->
+    </item>
+</layer-list>

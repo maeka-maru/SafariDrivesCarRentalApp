@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "172606732530",
+    "project_id": "safari-drives",
+    "storage_bucket": "safari-drives.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:172606732530:android:c306bdd8d0b3c44ea7b86b",
+        "android_client_info": {
+          "package_name": "com.example.safaridrives"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "172606732530-al5rackiibio21fmmesi20vf41mrlvfl.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD3KInPmTdMapw-0pODKfsLyxQlEbUaHYY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "172606732530-al5rackiibio21fmmesi20vf41mrlvfl.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

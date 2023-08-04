@@ -1,0 +1,18 @@
+<resources>
+    <!-- Light theme with green background and white text -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowActionBar">false</item>
+        <item name="android:windowActionBarOverlay">false</item>
+        <item name="android:windowActionModeOverlay">false</item>
+
+    </style>
+    <!-- res/values/styles.xml -->
+    <style name="AlertDialogButtonStyle" parent="Widget.AppCompat.Button">
+        <item name="android:background">@drawable/custom_button_background</item>
+        <!-- Add any other attributes you want to customize -->
+    </style>
+
+</resources>

@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:background="#FFFFFF"
+    tools:context=".FinalActivity">
+
+    <TextView
+        android:id="@+id/textViewRentalId"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textVRentalId"
+        android:layout_marginTop="50dp"
+        android:background="@drawable/edit_text_background"
+        android:gravity="center"
+        android:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textVRentalId"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="200dp"
+        android:gravity="center"
+        android:text="This is the rental ID that will be used when renting out the car." />
+
+    <Button
+        android:id="@+id/displayButton"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textViewRentalId"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#007BFF"
+        android:text="Display rental ID"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnDashboard"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/displayButton"
+        android:layout_marginTop="50dp"
+        android:backgroundTint="#007BFF"
+        android:text="Go to dashboard"
+        android:textColor="@color/white" />
+
+</RelativeLayout>
