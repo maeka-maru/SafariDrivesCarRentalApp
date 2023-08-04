@@ -2,7 +2,7 @@
   <tr style="width: 100%;">
     <td style="width: 100%;">
       <h2>Splashscreen</h2>
-      <img src="https://github.com/maeka-maru/SafariDrivesCarRentalApp/assets/117111592/bb3ce115-f53f-4484-9082-7aa71bf638c4" alt="safaridrives-splashscreen" width="100%"  >
+      <img src="https://github.com/maeka-maru/SafariDrivesCarRentalApp/assets/117111592/bb4e8f56-bcbb-4091-b828-a9449c389076" alt="safaridrives-splashscreen" width="100%"  >
     </td>
     <td style="width: 100%;">
       <h2>Signup</h2>
